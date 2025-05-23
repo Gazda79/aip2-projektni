@@ -1,10 +1,30 @@
-#define DG 1
-#include "debug.h"
+#include<iostream>
+#include<fstream>
+#include<string>
+#include<vector>
+using namespace std;
 
+struct Pozicija igrača {
+    int x;
+};
+vector<string> ucitajLabirint
 int main()
-{
-    int a = 5;
-    dv(a);
+{}
+Dobrodošli u labirint!
+Unesite potez (W = gore, a = lijevo, s = dolje, d = desno)
 
-    return 0;
 }
+
+vector<string> napraviLabirint() {
+    "# # # # # # # # # #"
+    "# P   # #     # K #"
+    "#     #    # #    #"
+    "#   # #    #    # #"
+    "#   #       #   # #"
+    "#   # # #   #   # #"
+    "#           #     #"
+    "# # # # #   # #   #"
+    "#       #         #"
+    "# # # # # # # # # #"
+    return 0;
+} 
